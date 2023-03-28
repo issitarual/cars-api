@@ -1,4 +1,4 @@
-package com.tastecamp.dto;
+package com.tastecamp.api.dto;
 
 public record CarDTO (
     String modelo, 
