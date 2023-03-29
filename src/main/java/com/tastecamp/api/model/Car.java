@@ -1,5 +1,7 @@
 package com.tastecamp.api.model;
 
+import java.sql.Date;
+
 import com.tastecamp.api.dto.CarDTO;
 
 import jakarta.persistence.Column;
@@ -34,7 +36,7 @@ public class Car {
     private String fabricante; 
 
     @Column(length = 10, nullable = false)
-    private String dataFabricacao; 
+    private Date dataFabricacao; 
 
     @Column(nullable = false)
     private int valor;
